@@ -1,15 +1,15 @@
-System details on Tue Aug  5 09:31:51 PM IST 2025
-Uptime of your system is:   21:31:51 up 12:26,  1 user,  load average: 0.28, 0.48, 0.71
+System details on Tue Aug  5 09:33:16 PM IST 2025
+Uptime of your system is:   21:33:16 up 12:27,  1 user,  load average: 1.07, 0.63, 0.74
 Disk usage is:                 total        used        free      shared  buff/cache   available
-Mem:           5.8Gi       1.3Gi       1.4Gi        39Mi       3.4Gi       4.5Gi
+Mem:           5.8Gi       1.8Gi       652Mi        56Mi       3.6Gi       4.0Gi
 Swap:          4.0Gi       780Ki       4.0Gi
-CPU usage is: top - 21:31:52 up 12:26,  1 user,  load average: 0.28, 0.48, 0.71
-Tasks: 203 total,   1 running, 201 sleeping,   0 stopped,   1 zombie
-%Cpu(s):  0.0 us, 15.4 sy,  0.0 ni, 84.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
-MiB Mem :   5925.7 total,   1439.6 free,   1314.2 used,   3499.4 buff/cache     
-MiB Swap:   4096.0 total,   4095.2 free,      0.8 used.   4611.4 avail Mem 
+CPU usage is: top - 21:33:16 up 12:27,  1 user,  load average: 1.07, 0.63, 0.74
+Tasks: 215 total,   1 running, 213 sleeping,   0 stopped,   1 zombie
+%Cpu(s):  4.5 us,  4.5 sy,  0.0 ni, 90.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5925.7 total,    652.2 free,   1821.6 used,   3711.8 buff/cache     
+MiB Swap:   4096.0 total,   4095.2 free,      0.8 used.   4104.1 avail Mem 
 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-  53413 rupali    20   0   14500   5544   3496 R   6.2   0.1   0:00.05 top
-      1 root      20   0   23328  14444   9708 S   0.0   0.2   0:24.43 systemd
+  54486 rupali    20   0   14500   5528   3480 R  15.4   0.1   0:00.02 top
+      1 root      20   0   23328  14444   9708 S   0.0   0.2   0:24.46 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.12 kthreadd
