@@ -10,6 +10,7 @@ mkdir -p logs
 LOG_FILE="logs/system-$( date +%F ).log"  
 
 myfun(){
+	{
 	echo "System details on $(date)"
 
 	echo "Uptime of your system is:  $(uptime)"
@@ -19,15 +20,10 @@ myfun(){
 	echo " CPU usage is: $(top -b -n1 | head -n 10) "
 	
 } > "$LOG_FILE"
+}
 
 echo "System info saved to $LOG_FILE"
 
-if [[ -f "$LOG_FILE" ]]; then
-    echo "✅ Log file created successfully!"
-else
-    echo "❌ Failed to create log file."
-fi
-
 git add monitor.sh logs/
-git commit -m "Update: auto-log and monitor.sh"
+git commit -m "Update: auto-log and monitor."
 git push origin main
