@@ -22,6 +22,12 @@ myfun(){
 
 echo "System info saved to $LOG_FILE"
 
+if [[ -f "$LOG_FILE" ]]; then
+    echo "✅ Log file created successfully!"
+else
+    echo "❌ Failed to create log file."
+fi
+
 git add monitor.sh logs/
 git commit -m "Update: auto-log and monitor.sh"
 git push origin main
