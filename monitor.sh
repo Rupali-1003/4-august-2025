@@ -5,6 +5,10 @@ This is my first project of automation using bash scripting
 
 comment
 
+mkdir -p logs   
+
+LOG_FILE="logs/system-$( date +%F ).log"  
+
 myfun(){
 	echo "System details on $(date)"
 
@@ -14,11 +18,10 @@ myfun(){
 
 	echo " CPU usage is: $(top -b -n1 | head -n 10) "
 	
-}
-mkdir -p logs
-
-LOG_FILE="logs/system-$( date +%F ).log"
-
-myfun > "$LOG_FILE"
+} > "$LOG_FILE"
 
 echo "System info saved to $LOG_FILE"
+
+git add monitor.sh logs/
+git commit -m "Update: auto-log and monitor.sh"
+git push origin main
