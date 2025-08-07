@@ -1,15 +1,15 @@
-System details on Thu Aug  7 09:52:42 PM IST 2025
-Uptime of your system is:   21:52:42 up 12:48,  1 user,  load average: 0.89, 0.75, 0.85
+System details on Thu Aug  7 09:56:22 PM IST 2025
+Uptime of your system is:   21:56:22 up 12:52,  1 user,  load average: 0.60, 0.83, 0.87
 Disk usage is:                 total        used        free      shared  buff/cache   available
-Mem:           5.8Gi       2.1Gi       299Mi        64Mi       3.5Gi       3.7Gi
+Mem:           5.8Gi       2.1Gi       246Mi        64Mi       3.5Gi       3.7Gi
 Swap:          4.0Gi       780Ki       4.0Gi
-CPU usage is: top - 21:52:43 up 12:48,  1 user,  load average: 0.89, 0.75, 0.85
-Tasks: 219 total,   1 running, 217 sleeping,   0 stopped,   1 zombie
-%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
-MiB Mem :   5925.7 total,    299.5 free,   2135.1 used,   3574.5 buff/cache     
-MiB Swap:   4096.0 total,   4095.2 free,      0.8 used.   3790.6 avail Mem 
+CPU usage is: top - 21:56:22 up 12:52,  1 user,  load average: 0.60, 0.83, 0.87
+Tasks: 214 total,   1 running, 212 sleeping,   0 stopped,   1 zombie
+%Cpu(s): 11.8 us,  5.9 sy,  0.0 ni, 82.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   5925.7 total,    246.8 free,   2171.6 used,   3576.1 buff/cache     
+MiB Swap:   4096.0 total,   4095.2 free,      0.8 used.   3754.1 avail Mem 
 
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-  53423 rupali    20   0   11.1g 595428 184356 S   9.1   9.8   1:59.74 firefox
-      1 root      20   0   23328  14444   9708 S   0.0   0.2   0:24.64 systemd
+  55376 rupali    20   0   14500   5612   3564 R  10.0   0.1   0:00.02 top
+      1 root      20   0   23328  14444   9708 S   0.0   0.2   0:24.65 systemd
       2 root      20   0       0      0      0 S   0.0   0.0   0:00.12 kthreadd
