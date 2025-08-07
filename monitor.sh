@@ -26,12 +26,14 @@ else
     echo "Failed to create log file."
 fi
 
+old_logs=$(find logs/ -type f -name "*.log" -mtime +7)
+if [ ! -z "$old_logs"];then
+        archive_name="archive/old-logs-$(date +%F).zip"
+        zip -j "$archive_name" $old_logs
+fi
+
 git add monitor.sh logs/
 git commit -m "Update: auto-log and monitor.sh"
 git push origin main
 
-old_logs=$(find logs/ -type f -name "*.log" -mtime +7)
-if [ ! -z "$old_logs"];then
-	archive_name="archive/old-logs-$(date +%F).zip"
-	zip -j "$archive_name" $old_logs
-fi
+
