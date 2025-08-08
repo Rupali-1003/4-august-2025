@@ -1,7 +1,7 @@
 #!/bin/bash
 
 <<comment
-This is my first project of automation using bash scripting
+Automation using shell scripting
 comment
 
 mkdir -p logs
